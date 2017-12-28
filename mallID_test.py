@@ -22,8 +22,8 @@ driver.maximize_window()
 # 进入商场列表页面
 driver.get('http://mp-t.mallcoo.cn/Mall/List/')
 # 登录
-driver.find_element_by_id("username").send_keys("mc_jiangxiaodong")
-driver.find_element_by_id("password").send_keys("jxd123")
+driver.find_element_by_id("username").send_keys("xxx")
+driver.find_element_by_id("password").send_keys("xxx")
 driver.find_element_by_id("btnLogin").click()
 
 # 设置隐式时间等待,单位是秒
