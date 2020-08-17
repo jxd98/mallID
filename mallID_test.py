@@ -20,7 +20,7 @@ driver = webdriver.PhantomJS(executable_path="D:\selenium\drivers\phantomjs")
 driver.maximize_window()
 
 # 进入商场列表页面
-driver.get('http://mp-t.mallcoo.cn/Mall/List/')
+driver.get('U url')
 # 登录
 driver.find_element_by_id("username").send_keys("mc_jiangxi")
 driver.find_element_by_id("password").send_keys("jxd66666")
